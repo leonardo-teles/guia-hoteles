@@ -1,6 +1,6 @@
-# Proyecto Wishlist
+# Proyecto Guía de Hoteles
 
-Proyect desarrollado como evaluación de módulos del curso 'Diseñando Páginas Web con Bootstrap 4' de Coursera.
+Proyecto desarrollado como evaluación de módulos del curso 'Diseñando Páginas Web con Bootstrap 4' de Coursera.
 
 ## Escopo Global de Curso
 
