@@ -46,7 +46,7 @@ gulp.task('clean', function() {
     return del(['dist']);
 });
 
-gulp.task('copyfonts', function() {
+gulp.task('copyfonts', async function() {
     gulp.src('./node_modules/open-iconic/font/fonts/*.{ttf,woff,svg,eot,otf}*')
     .pipe(gulp.dest('./dist/fonts'));
 });
@@ -72,9 +72,7 @@ gulp.task('usemin', function() {
     .pipe(gulp.dest('dist/'));
 });
 
-gulp.task('build', gulp.series('clean'), function() {
-    gulp.start('copyfonts', 'imagemin', 'usemin');
-});
+gulp.task('build', gulp.series('clean', gulp.parallel('copyfonts', 'imagemin', 'usemin')));
 
 
 

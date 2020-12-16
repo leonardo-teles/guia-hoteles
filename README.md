@@ -43,4 +43,8 @@ Proyecto desarrollado como evaluación de módulos del curso 'Diseñando Página
 - NPM 6.14.5
 - Bootstrap 4.5.2
 - Node.js 12.18.2
+- Grunt 1.3.0
+- Gulp 4.0.2
+
+<a href="https://www.coursera.org/account/accomplishments/verify/RW85JM38MWQC" target="_blank">Certificado</a>
 
